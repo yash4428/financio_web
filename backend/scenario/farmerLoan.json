@@ -1,0 +1,27 @@
+{
+  "id": "farmer_loan_scenario",
+  "steps": [
+    {
+      "stepId": 1,
+      "video": "/videos/video1.mp4",
+      "narration": "Collateral includes: Land,Cattle,Crops and farm equipment",
+      "question": "What will you do now?",
+      "correctKeywords": ["bank", "15", "collateral"],
+      "wrongKeywords": ["money lender","money","lender"],
+      "explanation": "Local money lenders charge very high interest. This often leads to a debt trap.",
+      "nextStepCorrect": 2,
+      "nextStepWrong": 2
+    },
+    {
+      "stepId": 2,
+      "video": "/videos/video2.mp4",
+      "narration": "Option 1: Flexible Repayment or Option2: Fixed Monthly Repayment",
+      "question": "What will you do now, Considering the seasonality of farming?",
+      "correctKeywords": ["option 1","1","one","flexible","repayment","flexible repayment"],
+      "wrongKeywords": ["option 2","2","two","fixed","monthly","repayment"],
+      "explanation": "Considering the seasonality of farming, you would you prefer a loan with flexible repayment schedules based on harvest time",
+      "nextStepCorrect": 4,
+      "nextStepWrong": 3
+    }
+  ]
+}
